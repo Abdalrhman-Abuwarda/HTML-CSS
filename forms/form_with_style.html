@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/bootstrap.min.css" , type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Create Category</h1>
+        <form action="/categories" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="text" name="name" class="form-control">
+            </div>
+
+            <!-- <div class="form-group">
+                <label for="description">Name</label>
+                <textarea type="text" id="description" name="description" class="form-control">
+            </div> -->
+
+            <div class="form-group">
+                <label for="type">Type</label>
+                <input type="text" id="type" name="type" class="form-control">
+            </div>
+<br>
+            <div class="form-group">
+                <button class="btn btn-primary">Save</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
